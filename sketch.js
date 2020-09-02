@@ -28,12 +28,12 @@ function draw() {
 if(isTouching(movingrect, gameObject1))
 {
   movingrect.shapeColor = "blue";
-  fixedrect.shapeColor = "blue";
+  gameObject1.shapeColor = "blue";
 }
 else
 {
     movingrect.shapeColor = "green";
-    fixedrect.shapeColor = "green";
+    gameObject1.shapeColor = "green";
 }
   drawSprites();
 }
